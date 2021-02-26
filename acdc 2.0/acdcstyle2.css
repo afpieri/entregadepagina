@@ -1,0 +1,123 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.h1{
+    color: ghostwhite;
+    font-style: italic;
+    font-size: 60px;
+    text-align: center;
+}
+
+.h2 {
+
+    color: ghostwhite;
+}
+
+
+#header {
+    margin-right: 100px;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 30px;
+
+
+}
+
+    ul ol {
+        list-style: none;
+    }
+.nav li a {background-color: crimson;
+    color: ghostwhite;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    list-style: none;
+
+}
+
+.nav li a:hover {
+    background-color: grey;
+
+}
+
+.nav li ul {
+    display:none;
+    position: absolute;
+    min-width: 140px;
+    list-style: none;
+    
+
+}
+
+
+.nav li:hover > ul {
+    display: block;
+    list-style: none;
+}
+
+
+
+.box{
+    width: 1500px;
+    height: 15;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+.transparent-box{
+    background-color:rgba(179,40,40, 0.3);
+    border-radius: 50px;
+    color: ghostwhite;
+    
+}
+
+.nav {
+    background-color:crimson;
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    border-radius: 8px;
+    
+}
+
+@media screen and (max-width: 640px) {
+    .nav {
+        background-color: cornflowerblue;
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:1356px){
+    .nav {
+        background-color: darkgoldenrod;
+    }
+}
+
+
+a {
+    border-radius: 8px;
+}
+
+main {
+    margin-right: 25px;
+
+}
+
+body{
+    display: flex;
+
+     background-image: url('acdcice.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+}
+
+
+
+

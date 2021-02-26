@@ -1,0 +1,49 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.body {
+    background-color: rgb(147, 29, 29);
+    color: ghostwhite;
+
+    display: flex;
+
+     background-image: url('fondoform.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+}
+
+form{
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 400px;
+
+}
+
+.fieldset {
+
+    display: block;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 2px groove (internal value);
+  align-content: center;
+}
+
+legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+  }

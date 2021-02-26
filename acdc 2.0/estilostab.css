@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    background-color: rgb(0, 0, 0);
+    color: ghostwhite;
+    display: flex;
+
+     background-image: url('grupo2.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    
+}
+
+.table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 15px;
+  }
+  
+ tr:nth-child(even){background-color: #913030}
+  
+  th {
+    background-color: #000000;
+    color: rgb(164, 69, 69);
+  }
+
+   .contenedortabla {
+     margin-top: 100px;
+     display: flex;
+   }
